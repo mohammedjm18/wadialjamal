@@ -1,208 +1,241 @@
 <!DOCTYPE html>
 <html lang="ar">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>شركة وادي الجمال للأثاث والمفروشات</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            direction: rtl;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>شركة وادي الجمال للأثاث والمفروشات</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      direction: rtl;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
 
-        header {
-            background-color: #2c3e50;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-        }
+    header {
+      background-color: #2c3e50;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
 
-        header h1 {
-            font-size: 2.5em;
-        }
+    header h1 {
+      font-size: 2.5em;
+    }
 
-        nav {
-            text-align: center;
-            background-color: #34495e;
-            padding: 10px 0;
-        }
+    nav {
+      text-align: center;
+      background-color: #34495e;
+      padding: 10px 0;
+    }
 
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            margin: 0 20px;
-            font-size: 1.2em;
-        }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 20px;
+      font-size: 1.2em;
+    }
 
-        nav a:hover {
-            color: #f39c12;
-        }
+    nav a:hover {
+      color: #f39c12;
+    }
 
-        .hero {
-            background-image: url('./hero.png');
-            background-size: cover;
-            object-fit: contain;
-            color: #fff;
-            padding: 100px 20px;
-            text-align: center;
-        }
+    .hero {
+      background-image: url('./hero.png');
+      background-size: cover;
+      object-fit: contain;
+      color: #fff;
+      padding: 100px 20px;
+      text-align: center;
+    }
 
-        .hero h2 {
-            font-size: 3em;
-            margin-bottom: 20px;
-        }
+    .hero h2 {
+      font-size: 3em;
+      margin-bottom: 20px;
+    }
 
-        .hero p {
-            font-size: 1.5em;
-        }
+    .hero p {
+      font-size: 1.5em;
+    }
 
-        .section {
-            padding: 50px 20px;
-        }
+    .section {
+      padding: 50px 20px;
+    }
 
-        .services {
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-            margin-top: 40px;
-        }
+    .services {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-top: 40px;
+    }
 
-        .service {
-            background-color: #fff;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            padding: 20px;
-            text-align: center;
-            width: 30%;
-            margin: 10px 0;
-        }
+    .service {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      text-align: center;
+      width: 30%;
+      margin: 10px 0;
+    }
 
-        .service h3 {
-            font-size: 1.5em;
-            margin-bottom: 10px;
-        }
+    .service h3 {
+      font-size: 1.5em;
+      margin-bottom: 10px;
+    }
 
-        .service p {
-            font-size: 1.1em;
-            color: #7f8c8d;
-        }
+    .service p {
+      font-size: 1.1em;
+      color: #7f8c8d;
+    }
 
-        .contact {
-            text-align: center;
-            margin-top: 50px;
-        }
+    .contact {
+      text-align: center;
+      margin-top: 50px;
+    }
 
-        .contact h2 {
-            font-size: 2em;
-            margin-bottom: 20px;
-        }
+    .contact h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
 
-        .contact-info {
-            font-size: 1.2em;
-            color: #2c3e50;
-            margin: 10px 0;
-        }
+    .contact-info {
+      font-size: 1.2em;
+      color: #2c3e50;
+      margin: 10px 0;
+    }
 
-        footer {
-            background-color: #2c3e50;
-            color: #fff;
-            text-align: center;
-            padding: 20px;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-        }
+    footer {
+      background-color: #2c3e50;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
 
-        @media (max-width: 768px) {
-            .services {
-                flex-direction: column;
-                align-items: center;
-            }
+    @media (max-width: 768px) {
+      .services {
+        flex-direction: column;
+        align-items: center;
+      }
 
-            .service {
-                width: 80%;
-            }
-        }
-    </style>
+      .service {
+        width: 80%;
+      }
+
+      .service .img {
+        width: 270px;
+        margin: 0 auto;
+      }
+
+      .service .img img{
+        width: 100%;
+      }
+    }
+  </style>
 </head>
+
 <body>
 
-    <!-- Header Section -->
-    <header>
-        <h1>شركة وادي الجمال للأثاث والمفروشات</h1>
-        <p>أفضل أنواع الأثاث لمنزل أنيق</p>
-    </header>
+  <!-- Header Section -->
+  <header>
+    <h1>شركة وادي الجمال للأثاث والمفروشات</h1>
+    <p>أفضل أنواع الأثاث لمنزل أنيق</p>
+  </header>
 
-    <!-- Navigation Menu -->
-    <nav>
-        <a href="#home">الرئيسية</a>
-        <a href="#services">خدماتنا</a>
-        <a href="#contact">اتصل بنا</a>
-    </nav>
+  <!-- Navigation Menu -->
+  <nav>
+    <a href="#home">الرئيسية</a>
+    <a href="#services">خدماتنا</a>
+    <a href="#contact">اتصل بنا</a>
+  </nav>
 
-    <!-- Hero Section -->
-    <section class="hero" id="home">
-        <h2>أثاث يتناسب مع ذوقك وحاجتك</h2>
-        <p>كل ما تحتاجه لمنزل كامل، من الأسرة إلى الأرائك، مع ضمان الجودة والراحة.</p>
-    </section>
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <h2>أثاث يتناسب مع ذوقك وحاجتك</h2>
+    <p>كل ما تحتاجه لمنزل كامل، من الأسرة إلى الأرائك، مع ضمان الجودة والراحة.</p>
+  </section>
 
-    <!-- Services Section -->
-    <section class="section" id="services">
-        <h2 style="text-align: center;font-size: 36px;">خدماتنا</h2>
-        <p style="text-align: center;font-size: 24px;">نحن نقدم مجموعة واسعة من الأثاث للمنازل بمختلف الأشكال والأحجام لتلبية جميع احتياجاتك.</p>
-        <div class="services">
-            <!-- Service 1: Sofas -->
-            <div class="service">
-                <h3>الأرائك</h3>
-                <p>استمتع بأرائك مريحة وعصرية لأماكن المعيشة الخاصة بك. نحن نقدم مجموعة متنوعة من الأرائك المصممة لتناسب كل الأذواق.</p>
-            </div>
-            <!-- Service 2: Beds -->
-            <div class="service">
-                <h3>الأسرة</h3>
-                <p>استمتع بنوم هادئ في أفضل الأسرة المصممة خصيصًا للراحة وجودة النوم. اختر من بين الأنواع المختلفة التي تناسب كل غرفة نوم.</p>
-            </div>
-            <!-- Service 3: Dining Tables -->
-            <div class="service">
-                <h3>طاولات الطعام</h3>
-                <p>طاولات طعام متنوعة تناسب جميع الأذواق والمناسبات، سواء كان لديك مساحة صغيرة أو غرفة طعام كبيرة.</p>
-            </div>
-            <!-- Service 4: Wardrobes -->
-            <div class="service">
-                <h3>خزائن الملابس</h3>
-                <p>خزائن رائعة لتخزين ملابسك بأناقة، مع تصميمات حديثة وعملية لراحة حياتك اليومية.</p>
-            </div>
-            <!-- Service 5: Office Furniture -->
-            <div class="service">
-                <h3>أثاث المكاتب</h3>
-                <p>نحن نقدم أثاث مكاتب عصري وعملي، بما في ذلك المكاتب والكراسي لتناسب كل بيئة عمل.</p>
-            </div>
-            <!-- Service 6: Living Room Furniture -->
-            <div class="service">
-                <h3>أثاث غرف المعيشة</h3>
-                <p>أثاث غرف المعيشة الفاخر الذي يضفي لمسة من الجمال والراحة على منزلك.</p>
-            </div>
+  <!-- Services Section -->
+  <section class="section" id="services">
+    <h2 style="text-align: center;font-size: 36px;">خدماتنا</h2>
+    <p style="text-align: center;font-size: 24px;">نحن نقدم مجموعة واسعة من الأثاث للمنازل بمختلف الأشكال والأحجام
+      لتلبية
+      جميع احتياجاتك.</p>
+    <div class="services">
+      <!-- Service 1: Sofas -->
+      <div class="service">
+        <div class="img">
+          <img src="./qanap.png" alt="">
         </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section class="section contact" id="contact">
-        <h2>اتصل بنا</h2>
-        <p>نحن هنا لمساعدتك في اختيار أفضل الأثاث لاحتياجاتك. لا تتردد في التواصل معنا.</p>
-        <div class="contact-info">
-            <p><strong>العنوان:</strong> زاخو/ بيدار</p>
-            <p><strong>الهاتف:</strong> <a href="tel:+9647507356501" style="direction: ltr;">+9647507356501</a></p>
-            <p><strong>البريد الإلكتروني:</strong> <a href="mailto:s12772222@gmail.com">s12772222@gmail.com</a></p>
+        <h3>الأرائك</h3>
+        <p>استمتع بأرائك مريحة وعصرية لأماكن المعيشة الخاصة بك. نحن نقدم مجموعة متنوعة من الأرائك المصممة لتناسب كل
+          الأذواق.
+        </p>
+      </div>
+      <!-- Service 2: Beds -->
+      <div class="service">
+        <div class="img">
+          <img src="./bed.png" alt="">
         </div>
-    </section>
+        <h3>الأسرة</h3>
+        <p>استمتع بنوم هادئ في أفضل الأسرة المصممة خصيصًا للراحة وجودة النوم. اختر من بين الأنواع المختلفة التي تناسب كل
+          غرفة نوم.</p>
+      </div>
+      <!-- Service 3: Dining Tables -->
+      <div class="service">
+        <div class="img">
+          <img src="./food.png" alt="">
+        </div>
+        <h3>طاولات الطعام</h3>
+        <p>طاولات طعام متنوعة تناسب جميع الأذواق والمناسبات، سواء كان لديك مساحة صغيرة أو غرفة طعام كبيرة.</p>
+      </div>
+      <!-- Service 4: Wardrobes -->
+      <div class="service">
+        <div class="img">
+          <img src="./clothes.png" alt="">
+        </div>
+        <h3>خزائن الملابس</h3>
+        <p>خزائن رائعة لتخزين ملابسك بأناقة، مع تصميمات حديثة وعملية لراحة حياتك اليومية.</p>
+      </div>
+      <!-- Service 5: Office Furniture -->
+      <div class="service">
+        <div class="img">
+          <img src="./office.png" alt="">
+        </div>
+        <h3>أثاث المكاتب</h3>
+        <p>نحن نقدم أثاث مكاتب عصري وعملي، بما في ذلك المكاتب والكراسي لتناسب كل بيئة عمل.</p>
+      </div>
+    </div>
+  </section>
 
-    <!-- Footer Section -->
-    <footer>
-        <p>جميع الحقوق محفوظة &copy; 2025 شركة وادي الجمال للأثاث والمفروشات</p>
-    </footer>
+  <!-- Contact Section -->
+  <section class="section contact" id="contact">
+    <h2>اتصل بنا</h2>
+    <p>نحن هنا لمساعدتك في اختيار أفضل الأثاث لاحتياجاتك. لا تتردد في التواصل معنا.</p>
+    <div class="contact-info">
+      <p><strong>العنوان: </strong>زاخو - بيدار - شارع الاستقبال</p>
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3180.396442859301!2d42.65889118470046!3d37.143271879879386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzfCsDA4JzM1LjgiTiA0MsKwMzknMjQuMSJF!5e0!3m2!1sar!2siq!4v1742663051448!5m2!1sar!2siq"
+          width="350" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <p><strong>الهاتف:</strong> <a href="tel:+9647507356501" style="direction: ltr;">+9647507356501</a></p>
+      <p><strong>البريد الإلكتروني:</strong> <a href="mailto:s12772222@gmail.com">s12772222@gmail.com</a></p>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>جميع الحقوق محفوظة &copy; 2025 شركة وادي الجمال للأثاث والمفروشات</p>
+  </footer>
 
 </body>
+
 </html>
